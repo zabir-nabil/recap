@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recap-plan-reuse"
+version = "0.1.0"
+description = "Retrieval and Execution of Compiled Agent Plans for tool-using agents"
+readme = "README.md"
+requires-python = ">=3.10"
+license-files = ["licenses/OctoTools-MIT.txt"]
+dependencies = [
+    "numpy>=1.25",
+    "faiss-cpu>=1.13.2",
+    "sentence-transformers>=5.2.0",
+    "openai>=2.14.0",
+    "google-genai>=1.71.0",
+]
+
+[project.optional-dependencies]
+datasets = [
+    "datasets>=2.21.0",
+    "huggingface-hub>=0.36.0",
+    "requests>=2.32.0",
+    "beautifulsoup4>=4.12",
+    "geopy>=2.4",
+    "nltk>=3.9",
+    "gdown>=5.2",
+]
+
+[project.scripts]
+recap-experiment = "recap.experiment:main"
+
+[project.urls]
+Homepage = "https://huggingface.co/RECAP-data"
+Dataset = "https://huggingface.co/datasets/RECAP-data/reuse-qa"
+"GAIA dataset" = "https://huggingface.co/datasets/RECAP-data/reuse-qa-gaia"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["recap", "recap.*"]
+namespaces = false
+

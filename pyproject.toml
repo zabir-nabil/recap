@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=77", "wheel"]
+requires = ["setuptools>=77.0.3", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -8,7 +8,8 @@ version = "0.1.0"
 description = "Retrieval and Execution of Compiled Agent Plans for tool-using agents"
 readme = "README.md"
 requires-python = ">=3.10"
-license-files = ["licenses/OctoTools-MIT.txt"]
+license = "MIT"
+license-files = ["LICENSE", "licenses/OctoTools-MIT.txt"]
 dependencies = [
     "numpy>=1.25",
     "faiss-cpu>=1.13.2",

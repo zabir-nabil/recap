@@ -1,0 +1,8 @@
+Your task is to generate 5 paraphrases of the input question.
+
+INPUT QUESTION: {QUESTION}
+
+The following words MUST remain the same verbatim while paraphrasing.
+WORDS TO REMAIN UNCHANGED: {WORDS}
+
+Provide your output in the specified structured JSON format.

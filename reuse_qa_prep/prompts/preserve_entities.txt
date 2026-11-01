@@ -1,0 +1,5 @@
+Your task is to generate 5 paraphrases of the input question.
+
+INPUT QUESTION: {QUESTION}
+
+The named entities and the meaning of the question should remain the same in all paraphrases. Provide your output in the specified structured JSON format.

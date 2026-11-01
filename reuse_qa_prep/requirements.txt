@@ -1,0 +1,4 @@
+datasets>=2.0.0
+gdown
+google-genai
+tqdm>=4.60.0

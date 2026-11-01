@@ -161,6 +161,12 @@ The published records have eight fields: `id`, `parent_id`, `dataset`, `variant_
 
 The supplied GAIA tools support text, web search, page fetching, reasoning, and computation. 
 
+## License
+
+The project code is licensed under the [MIT License](LICENSE).
+Adapted OctoTools portions retain their [upstream MIT notice](licenses/OctoTools-MIT.txt).
+Datasets, downloaded databases, pretrained models, and external content remain subject to their respective licenses and access conditions.
+
 ## Citation
 
 Please cite the accompanying manuscript, *RECAP: Structured Plan Reuse for Efficient Tool-Using Agents*, and the source benchmarks used in your evaluation. Dataset provenance, access conditions, and source citations are documented in the two REUSE-QA dataset cards linked above.
